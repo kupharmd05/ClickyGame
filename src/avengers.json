@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "Ironman",
+        "image" : "https://marvelcinematicuniverse.fandom.com/wiki/File:AoU_Iron_Man_Mk43_art.png"
+        
+    },
+    {
+        "id": 2,
+        "name": "Thor",
+        "image": "https://www.allposters.com/-sp/Avengers-Infinity-War-Thor-and-Stormbreaker-Posters_i15605542_.htm"
+    
+    },
+    {
+        "id": 3,
+        "name": "CaptainAmerica",
+        "image": ""
+    },
+    {
+        "id": 4,
+        "name": "Hulk",
+        "image": ""
+    },
+    {
+        "id": 5,
+        "name": "Thanos",
+        "image": ""
+    }
+]
