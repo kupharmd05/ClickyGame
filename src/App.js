@@ -12,12 +12,15 @@ class App extends Component {;
 
 state ={
   avengers,
-  score: 0
+  score: 0,
+  clicked: "false"
 };
 
 handleScore = ()=> {
   console.log("this works")
   this.setState({score: this.state.score + 1})
+  console.log("this works too?")
+  this.setState({clicked: "true"})
 }
 
 
@@ -35,6 +38,7 @@ handleScore = ()=> {
             name={avenger.name}
             image={avenger.image}
             onClick={this.handleScore}
+            clicked = {this.state.clicked}
           />
 
         ))}
