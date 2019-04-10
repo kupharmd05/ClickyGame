@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import ClickyHeader from "./components/Header/Header";
-import Wrapper from "./components/Wrapper"
+import ClickyHeader from "./components/Header";
+import Wrapper from "./components/Wrapper/Wrapper"
 import './App.css';
-import GameCard from './components/Cards/Cards';
+import GameCard from './components/Cards';
 import avengers from "./avengers.json"
-import Jumbotron from './components/Jumbotron';
-
+import Jumbotron from './components/Jumbotron/Jumbotron';
+import Footer from "./components/Footer/index"
 
 
 class App extends Component {;
@@ -16,6 +16,7 @@ state ={
 };
 
 handleScore = ()=> {
+  console.log("this works")
   this.setState({score: this.state.score + 1})
 }
 
@@ -37,7 +38,9 @@ handleScore = ()=> {
           />
 
         ))}
+        {/* <Footer /> */}
       </Wrapper>
+        
     )
 
 
